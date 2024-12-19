@@ -3,42 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="city-search-box"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>San Francisco</h1>
-        <p>
-          Thursday 13:45, few clouds
-          <br />
-          Humidity: 81%, Wind: 4.92km/h
-        </p>
-      </div>
+      <main>
+        <div>
+          <h1 class="city-display">San Francisco</h1>
+          <p class="current-weather-details">
+            Thursday 13:45, few clouds
+            <br />
+            Humidity:
+            <strong class="current-weather-details-strong">81%</strong>, Wind:
+            <strong class="current-weather-details-strong">4.92km/h</strong>
+          </p>
+        </div>
 
-      <div>🌤️ 11 °C</div>
-    </main>
+        <div class="current-temp-container">
+          <div class="weather-icon">🌤️</div>
+          <div class="current-temp-display">11</div>
+          <div class="temp-unit">°F</div>
+        </div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/nicolelb137" target="_blank">Nicole Bouton</a
-      >, is
-      <a
-        href="https://github.com/nicolelb137/Weather-App-Project"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://nb-myweatherapp.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/nicolelb137" target="_blank"
+          >Nicole Bouton</a
+        >, is
+        <a
+          href="https://github.com/nicolelb137/Weather-App-Project"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://nb-myweatherapp.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
