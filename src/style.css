@@ -80,17 +80,17 @@ footer {
 }
 
 .current-temp-display {
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 65px;
+  line-height: 65px;
   font-weight: bold;
 }
 
 .temp-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
 .weather-icon {
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
 }
