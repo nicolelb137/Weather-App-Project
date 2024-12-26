@@ -110,8 +110,10 @@ footer {
 }
 
 .future-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
 .future-forecast-temps {
