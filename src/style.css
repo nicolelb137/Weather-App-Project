@@ -94,3 +94,34 @@ footer {
   width: 65px;
   height: 65px;
 }
+
+.future-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.future-forecast-date {
+  text-align: center;
+  color: #778da9;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.future-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.future-forecast-temps {
+  text-align: center;
+  color: #f72585;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.future-forecast-temp {
+  padding: 0 5px;
+}
